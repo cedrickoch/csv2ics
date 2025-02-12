@@ -7,7 +7,7 @@ import pytz
 calendar = Calendar()
 
 # Read the CSV file
-with open('kalender.csv', 'r') as csvfile:
+with open('examples/calendar.csv', 'r') as csvfile:
     csvreader = csv.DictReader(csvfile)
 
     # Iterate through each row in the CSV file
